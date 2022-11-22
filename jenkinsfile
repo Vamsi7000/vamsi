@@ -3,13 +3,13 @@ pipeline
   agent any
   stages 
  {
-      stage('from github')
+      stage('Github')
       {
               steps{
                       echo 'hi hello how are you'
                     }
       }
-      stage('example')
+      stage('Example')
       {
               steps
               {
